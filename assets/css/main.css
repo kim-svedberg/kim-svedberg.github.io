@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2593,6 +2593,7 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				position: relative;
 				display: block;
+				aspect-ratio: 1 / 1; /* square tiles */
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
